@@ -6,8 +6,11 @@ import ReactDOM from "react-dom/client";
 import "../styles/index.css";
 
 //import your own components
-import Home from "./component/home.jsx";
+import Home from "./component/Home.js";
 
-//render your react application
-ReactDOM.createRoot(document.getElementById('app')).render(<Home/>);
+let seconds = 0;
+setInterval(function () {
+    seconds++;
+    ReactDOM.createRoot(document.getElementById('app')).render(<Home seconds={seconds} />);
+}, 1000);
 

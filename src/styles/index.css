@@ -1,12 +1,19 @@
-
-/* 
-
-    You can write your own styles here...
+body{
+    margin-top: 20%;
+}
+.container {
+    font-size: 60px;
+    background: #101010;
+    color: white;
+    border-radius: 15px;
     
+}
+.row{
+    text-align: center;
+}
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.digits{
+    border: 5px solid rgb(149, 147, 147);
+    background-color: #101010;
 
-*/
+}
